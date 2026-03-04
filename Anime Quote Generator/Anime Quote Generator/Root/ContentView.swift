@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(Database.self) var db
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,9 +18,13 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .task {
+            await db.fetchAllQuotes()
+        }
     }
 }
 
 #Preview {
     ContentView()
+        .environment(Database())
 }
