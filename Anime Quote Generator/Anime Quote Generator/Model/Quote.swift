@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
-struct Quote: Codable {
+struct Quote: Codable, Identifiable {
+    @DocumentID var id: String?
     let quote: String
     let character: String
     let characterImg: String

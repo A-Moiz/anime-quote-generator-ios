@@ -23,7 +23,7 @@ struct Anime_Quote_GeneratorApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AllQuotesView()
                 .environment(database)
         }
     }

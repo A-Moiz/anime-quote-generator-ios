@@ -17,6 +17,7 @@ class Database {
     
     func fetchAllQuotes() async {
         let db = Firestore.firestore()
+        allQuotes = []
         do {
             let snapshot = try await db.collection(collectionName).getDocuments()
             self.allQuotes = snapshot.documents.compactMap { document in
