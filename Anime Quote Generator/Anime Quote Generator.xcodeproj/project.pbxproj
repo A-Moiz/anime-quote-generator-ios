@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543EA9142F5897AD00A9FCC4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 543EA9132F5897AD00A9FCC4 /* .gitignore */; };
 		543EA9192F58981B00A9FCC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 543EA9182F58981B00A9FCC4 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		543EA8E12F587E1500A9FCC4 /* Anime Quote Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Quote Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543EA8EE2F587E1700A9FCC4 /* Anime Quote GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime Quote GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543EA8F82F587E1700A9FCC4 /* Anime Quote GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime Quote GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		543EA9132F5897AD00A9FCC4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,7 +80,6 @@
 		543EA8D82F587E1500A9FCC4 = {
 			isa = PBXGroup;
 			children = (
-				543EA9132F5897AD00A9FCC4 /* .gitignore */,
 				543EA8E32F587E1500A9FCC4 /* Anime Quote Generator */,
 				543EA8F12F587E1700A9FCC4 /* Anime Quote GeneratorTests */,
 				543EA8FB2F587E1700A9FCC4 /* Anime Quote GeneratorUITests */,
@@ -224,7 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543EA9142F5897AD00A9FCC4 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
